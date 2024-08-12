@@ -1,0 +1,13 @@
+<h1>Results</h1>
+<a href="/">Home</a>
+<table>
+    <tr>
+        <th>Score</th>
+        <th>Matched Text</th>
+    {% for result, score in results%}
+    </tr>
+        <td>{{score}}</td>
+        <td>{{result.page_content}}</td>
+    </tr>
+    {% endfor %}
+</table>
