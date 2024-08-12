@@ -1,0 +1,11 @@
+docx-parser
+elasticsearch
+Flask
+langchain
+langchain-elasticsearch
+langchain-community
+langchain-openai
+openai
+pypdf
+Werkzeug
+ruff
